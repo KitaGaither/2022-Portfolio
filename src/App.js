@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import './App.css';
+import Header from './components/header.js';
 
 function App() {
   return (
     <React.Fragment>
+      <Header />
       <h1>Hi I'm Kita</h1>
       <ReactTypingEffect
         text={["-Software Engineer"]}
